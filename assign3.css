@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.parent{
+    background-color: #ECECEC;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 75vh;
+    width: 50vh;
+    background-color:#FFFFFF ;
+    border-radius: 20px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.nav{
+    position: relative;
+    height: 25vh;
+    background-color: pink;
+    border-radius: 20px;
+}
+.nav img{
+    height: 25vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.plusicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50px;
+    right:7%;
+    top:10%;
+}
+.pfp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pfpimage{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    border-radius: 50px;
+    position: absolute;
+    border: white solid 5px;
+}
+.pfpimage img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    border:0;
+}
+.bottom{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottom p{
+    color: grey;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    height: 10vh;
+    width:32vh;
+    /* background-color: blue; */
+    margin-top: 20px;
+    border-radius: 20px;
+    border:1px solid grey;
+}
+.likes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.views{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.stats p{
+    font-size: 13px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 5vh;
+    width: 20vh;
+    /* background-color: pink; */
+    gap: 30px;
+}
+.fa-instagram{
+    font-size: 25px;
+
+}
+.fa-x-twitter{
+    font-size: 25px;
+}
+.fa-threads{
+    font-size: 25px;
+}
